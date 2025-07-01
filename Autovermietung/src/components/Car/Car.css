@@ -1,0 +1,40 @@
+.Car {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 16px;
+    background-color: white;
+    border-radius: 12px;
+    border: 1px solid #e0e0e0;
+    box-shadow: 0 4px 12px grey;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    height: 120px;
+}
+
+.Car:hover {
+    background-color: #f8f8f8;
+    transform: translateY(-2px);
+}
+
+.Car__Image {
+    width: 160px;
+    height: 90px;
+    flex-shrink: 0;
+    overflow: hidden;
+    border-radius: 8px;
+}
+
+#Picture__Image{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    border-radius: 8px;
+}
+
+.Car__Title {
+    font-size: 1.2em;
+    color: #4f46e5;
+    font-weight: 600;
+    flex-grow: 1;
+}

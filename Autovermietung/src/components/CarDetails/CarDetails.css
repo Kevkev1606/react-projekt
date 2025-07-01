@@ -1,0 +1,55 @@
+.CarDetails {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 24px;
+    background-color: #ffffff;
+    border-radius: 16px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.06);
+    color: #333;
+}
+
+.CarDetails__Title{
+    font-size: 2em;
+    color: #4f46e5;
+}
+
+.CarDetails__Image{
+    width: 100%;
+    max-width: 400px;
+    border-radius: 12px;
+}
+
+.CarDetails__Info{
+    line-height: 1.5;
+}
+
+.CarDetails__Buttons {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.CarDetails__Button {
+    background-color: #4f46e5;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    font-size: 1em;
+    font-weight: 600;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    text-decoration: none;
+}
+
+.CarDetails__Button:hover {
+    background-color: #5b21b6;
+    transform: translateY(-2px);
+}
+
+.CarDetails__Error {
+    color: #e53935;
+    margin-bottom: 12px;
+    font-size: 15px;
+    text-align: left;
+    padding-left: 10px;
+}
